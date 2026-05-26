@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	color: darkblue;
+	font-style: italic;
+	padding: 2em;
+	border-bottom: 5px solid black;
+	font-family: 'Aboreto';
+	font-size: 4em;
+}
+
+h2 {
+	text-decoration: underline;
+	margin: 1em;
+}
+
+ul {
+	font-weight: bold;
+}
+
+ul, ol {
+	list-style-position: inside;
+}
+
+.grass {
+	background-image: url("grass.jpg");
+	background-size: cover;
+  }
+
+footer {
+	transition: color, font-weight;
+	transform: scale(1.5) skewY(5deg);
+	text-shadow: 2px 2px yellow;
+}
+
+footer :hover {
+	color: red;
+	font-weight: bold;
+}
